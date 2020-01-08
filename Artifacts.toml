@@ -1,378 +1,378 @@
 [[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "8dfddce80dbaaca0d44c8af67f296b6454942fd0"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "1f9d1a34c63c592ef1703a79c949f7058756ac3737069f57466741577d0c8773"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-linux-gnu-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "aarch64"
-git-tree-sha1 = "04daef8a586e8005e83d82c18dab89ea92a6fecb"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "0291dedcbd6936dcc19044fc7875782bc8742a2714144895537c9cecfdbbc467"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.aarch64-linux-musl-libgfortran4.tar.gz"
-[[OpenBLAS]]
 arch = "i686"
-git-tree-sha1 = "654e25899d816070f678758a8ec96e1fd2b9ea75"
+git-tree-sha1 = "d288a2625665d645111014ed0549a6cec1d0b0d9"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[OpenBLAS.download]]
-    sha256 = "07eac4cac690872b599a8402e699d66ddb4242f065b295bb2c03cb6f3171eda6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-linux-gnu-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "8b721b97fbe12b36e0b1a7479650dd132b8b5c7a"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "92511435a9ab68864c92e3042340907089bdfb189284e32215072849aca7a598"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-linux-musl-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "aarch64"
-git-tree-sha1 = "30d124335d44c82ff6b5ef46cf9384bd832abad6"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "a314755bcd20c14c4ee4646bccead687a6e3a4e38d2ffa8819116b4e6195acfa"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.aarch64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "6a4647c06b6159eb19f1bc62de4430046d07ceac187d4948777206eb999fd98c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-linux-gnu-libgfortran3.tar.gz"
 [[OpenBLAS]]
 arch = "i686"
-git-tree-sha1 = "bd3ec60a081271e3ccda2d86d5a745313b09f5f5"
+git-tree-sha1 = "317f0960e4876e321b300d9ec0de8d25173b7a92"
 libgfortran_version = "5.0.0"
 os = "windows"
 
     [[OpenBLAS.download]]
-    sha256 = "22ce30041caec48b2c5b2d20dd2fecaf2e8ca3bd12853643a973185ab9dbca6e"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-w64-mingw32-libgfortran5.tar.gz"
+    sha256 = "894f900dd9fc88f806f8149517ae0fd830501d01e09fdf10238d5ae213a2b40e"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-w64-mingw32-libgfortran5.tar.gz"
 [[OpenBLAS]]
 arch = "aarch64"
-git-tree-sha1 = "bc939d84814ca23d13ca536aa2e5ebda96b2649b"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "b9fb6f14f83a855af89c9128be4fdd2db91e17e54598723510cb155d3bd59982"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.aarch64-linux-musl-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "armv7l"
-git-tree-sha1 = "22502bbe6d6e84398f961cdd80ef1ac89147d8ad"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "e89859e3b93a9a50be85792b1ba7cc7441c724c5fdb42268b31dfa323241ab19"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.arm-linux-musleabihf-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "armv7l"
-git-tree-sha1 = "b29ed3190965f1f14c0ace09fdb6d4b0c3c992f5"
+git-tree-sha1 = "88c2757232644c1ef980d564f774499ca3a3943c"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[OpenBLAS.download]]
-    sha256 = "ed534015b996ef93ad6ab3ef4297b6b2083cf00bcd88c5314420bad5f4631acf"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.arm-linux-musleabihf-libgfortran3.tar.gz"
+    sha256 = "de97d579dbb928a6408c64e1f84c83dc2e252002f8b8e87b392307fe0d06a608"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.aarch64-linux-musl-libgfortran3.tar.gz"
 [[OpenBLAS]]
-arch = "i686"
-git-tree-sha1 = "6d9865b1d53a741d0ec12a544795fc3a48c6da23"
+arch = "x86_64"
+git-tree-sha1 = "d49448585bf6c02221a20b9e62afc299f7c9eefa"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[OpenBLAS.download]]
+    sha256 = "ad7bbdb336d055157389ff69870e26189a77d5c698f33b57c99d3452b191a7d8"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-w64-mingw32-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "aarch64"
+git-tree-sha1 = "2ac58fcd9ba023dd93fa0eae3c4615938aca751c"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[OpenBLAS.download]]
-    sha256 = "518c6e96dec658a7f6ed6c07d4ff1294d8b9b421cff3f7825de44f5ef16652be"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-linux-musl-libgfortran5.tar.gz"
+    sha256 = "dc82ecf507cdfdb31286566cf8d88614acf58b54ae286ea9a4bf0d807ec5dc3f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.aarch64-linux-musl-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "aarch64"
+git-tree-sha1 = "d26f50262701ca3118a0d4681d41420bc7196fae"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "f77591ad0eb2983e266bab1d6b6bada09aacaa4f3feb535800b037479c05f458"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.aarch64-linux-gnu-libgfortran4.tar.gz"
 [[OpenBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "d3c11dd91b5a6a7a008bfa1338aaf21f99281b9b"
+git-tree-sha1 = "bd2df12f000e14738ba4eef371a36abdca55918f"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "083e984d9ca0fb5b11e3ef8d7b2f13582f6a320918dda9335318001001de4667"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "powerpc64le"
+git-tree-sha1 = "ccf156df1b0ff6e560789d3df993b5e0511ba5ee"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "074888c95061cc77aa52160be8ff08543b09dd861e880cec09ccdeb8c29107cc"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.powerpc64le-linux-gnu-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "i686"
+git-tree-sha1 = "a93e20a27541b7baaeb03d39f6815c0b631716c5"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[OpenBLAS.download]]
+    sha256 = "01beafa0fcd5893b5900dc030a4b6723d9a8eb6b8d51d9c1070b99287d0eb2b4"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-w64-mingw32-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "i686"
+git-tree-sha1 = "f0576fb5b75f50e71d1f2eded2b9a040505efda6"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "87d9d169e945fc93840578b6bba5d20355611847c784d267fe4e37f7bd352060"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-linux-musl-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "i686"
+git-tree-sha1 = "a90f3a322349ca3bde0d7ebf3c22630ed34e6d40"
 libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[OpenBLAS.download]]
+    sha256 = "43486034aa997ca9f5c6e9bf4176f768538df52a7b136efc82fce2544483917c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-w64-mingw32-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "b6a25bd20addfd08dc69c3a4282e2479419c64d1"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "5b51ee18f07a3312516caa710610713850ed113e9e05fcd7f421876f3a8a94bb"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "armv7l"
+git-tree-sha1 = "761b826594f6a006c7863af357ca8fc09bb68cd2"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "bfb688cc800254f65095317f8c5e9767a95b1aa9c00c7c7998da1b7bbb238390"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.arm-linux-musleabihf-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "aarch64"
+git-tree-sha1 = "4161b1674d0667c3e3dcf0695d399225d555aa65"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "e2d7c5e5b04785f03ce49a1b4a915bcdaf54da3ae1693838a1663187e7c274b0"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "powerpc64le"
+git-tree-sha1 = "355f1a8cd0e83b575523b33e542393b32d8fa763"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "fd819ab84f11fffb0d6737ea7461cbec6e558f9a63df1922e81c63aac8dcdd13"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "aarch64"
+git-tree-sha1 = "d6da8a899b1a44797c04befb8ae6b9b553abd3d0"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "70f1aead5162ca4c5950ceab8d19282db46ccdc0c2b310cddf462bd1193f3b88"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.aarch64-linux-musl-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "i686"
+git-tree-sha1 = "dc15ba549aae9f0e8211253ea87fa1bf6fbb0486"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "8330d96909ded17b2ab77f5bb4a66cc4f0f4bed1a669f2a5bcd2b45758c75d19"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-linux-musl-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "armv7l"
+git-tree-sha1 = "175d9e793592c08552dbff8972fc80d044b4dffa"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "939a1e5b8b869b6c086b76b898e65d3f9d3685d855ab0410791db05ab925d748"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.arm-linux-musleabihf-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "powerpc64le"
+git-tree-sha1 = "be3f5ae792b71933902b1cb6a4887450b586414e"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "abc16957fca71b82580a71827d68e0fb564fa47f844cad786695e998835a6686"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.powerpc64le-linux-gnu-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "armv7l"
+git-tree-sha1 = "734f469832ee740bb4840946909613a701224aab"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "a5779821c271e3d5bb616e7b6d115b967359ad00ec2822f1e4b55673f6caa1bd"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.arm-linux-gnueabihf-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "df7ae0cafdac823e94dc866509a2146fbcd465a4"
+libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[OpenBLAS.download]]
-    sha256 = "d98bff5ac8fbad0c7b442f812908dceb9681d6eeb1422c7f645296ba8740ec26"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-unknown-freebsd11.1-libgfortran4.tar.gz"
+    sha256 = "fdcd45dca98791688eedcc90a47c994deb87dbc7118adcbbc46acaea260e33c6"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
 [[OpenBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "589e15a1d1348ff2d54e9c071d939f74eaf681a9"
-libgfortran_version = "5.0.0"
-os = "windows"
-
-    [[OpenBLAS.download]]
-    sha256 = "79716784bcc8aa9b76ee371542d08f8f31967d3d6d0940445af050c5d50432c3"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-w64-mingw32-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "armv7l"
-git-tree-sha1 = "6693ac5701b2f74caf3e9a5f097854e65ac8dfdf"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "152af5da7e58489e1db1906224076ac7efce233c37030e6d647ebad989453f0b"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.arm-linux-gnueabihf-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "powerpc64le"
-git-tree-sha1 = "60cf7f78dc69ab6fb4b8fa3f3b8d8dc10b0d65dc"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "70bdbbde62ca6971dc876a6205115dffac8414af526e69d646a9ac8aeefc0a8f"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.powerpc64le-linux-gnu-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "i686"
-git-tree-sha1 = "fb9cb8bee7bd521c9b9a3a13c2cfda6010d8817a"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "b5457bbe6db78e7ad8d6010306e5e5544062489846e58a518d3ce6a679c9a707"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-linux-gnu-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "armv7l"
-git-tree-sha1 = "f5fd41ae577b5fd06cdc64456a4933edc24ca529"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "cd403a68e016f2f860393cfcfa562ed52b994f16ea1eeb5837f151f81452dcfb"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.arm-linux-gnueabihf-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "dc81d9b89ca4a2e312666a3eb7c7339f2af6b4bb"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[OpenBLAS.download]]
-    sha256 = "b40f377b86d7e7d8b5f7b999800f77d25ccf96e7659d7f75d886899ae4063160"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-apple-darwin14-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "armv7l"
-git-tree-sha1 = "84b68b54c53fe433b79a3b5e9bfd1b8e95914be3"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "f55b736aff64d3e357a520ede05617e6105c77157441262eb81c943473efc6f0"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.arm-linux-gnueabihf-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "64cd1ff1c7efb4ef030b6aa1e7c7eba325d9f0f3"
-libgfortran_version = "5.0.0"
-os = "macos"
-
-    [[OpenBLAS.download]]
-    sha256 = "2856c84caddd56fb2a251f50f8da7a35dec0159475de5ea6035783c56283242d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-apple-darwin14-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "bb3b0ba8472fe89ace3bce2a91488bcaf78ae380"
-libgfortran_version = "5.0.0"
-os = "freebsd"
-
-    [[OpenBLAS.download]]
-    sha256 = "e6d8c8abee28331a6f749263cb15ffe66bd69b8d0848a324eeca6c404ebf977d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-unknown-freebsd11.1-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "689c01c8541dc495070bba55175642b6a522476b"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "986ba881b538b769857b2ba758b989ebeb886fb2bb70042546cf84c249545a47"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-linux-gnu-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "aarch64"
-git-tree-sha1 = "867f7bf2150ee97e95a250ccaf1f399062786bbd"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "456b16957f128c674bfb5aec2c56d9eec9c70b0b6bd932b31c3ae02c4da3cbf8"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "f78fb027d16df5c55bfeb4f2861a1a29a4502ee7"
+git-tree-sha1 = "eb6231effa7a93e9371db3d81d80bb381966320e"
 libgfortran_version = "4.0.0"
 os = "windows"
 
     [[OpenBLAS.download]]
-    sha256 = "326b461908fd68dac78a4ba95550da1d988b6f78e5052bc7a46ea0315bbd766b"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-w64-mingw32-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "aarch64"
-git-tree-sha1 = "3b5f957cdd63f74deae856ca4e95b777baa76390"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "d005304a3348787efdddae2cf6d7dadbaaaf75e5df4bd709631beb3d8089ef1d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.aarch64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "1f1a29093373b949294932a61f0f41d556dbc7c3e8aef7841db8427c5be9a1ad"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-w64-mingw32-libgfortran4.tar.gz"
 [[OpenBLAS]]
 arch = "x86_64"
-git-tree-sha1 = "7663220dc6f399c88954c8a5410e99fd36f7aee4"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[OpenBLAS.download]]
-    sha256 = "f9177b5a7a5fd3ecab7580aea2c57c0a1f6d7d4f641c95cfe92b343acd56f00d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-w64-mingw32-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "powerpc64le"
-git-tree-sha1 = "90d8539892d472dfea3e929f1365ccc59adef0ca"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "421f39caa078cd10c5fe1756159e0a64a052c17b07b8295c5590fe75e6ae60f7"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.powerpc64le-linux-gnu-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "aarch64"
-git-tree-sha1 = "ba446642e0370bca391572a4b331e96a6f75c9a6"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "76d39413e40da6949ea7a3ce04c8d8c1f8aa7d15a0de2bf2005e9b7ff82e0325"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.aarch64-linux-gnu-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "armv7l"
-git-tree-sha1 = "55de3c554289c9b44da28be3bf9b72da769fe47c"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "84a4bd4b43711d0627847eb7b1f432fe6653d77923f26e8d54cf9eb0aae9b2f2"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.arm-linux-musleabihf-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "i686"
-git-tree-sha1 = "f4c36969723dadaf210ca09e9b787416ca490b95"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "a364c8b1704a4fb5751889a4f3abdb595173ff308199a92a72b3fd9877b11a2d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-linux-musl-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "f7877b9e6de3cf80f6f81d811cf555861c7c8f43"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "0fb2f2e802b92508e6cf86a05fda12b5d0cabee0b3c4089dab6f9c417206eea9"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-linux-musl-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "bde5747a29a1041ef6b761a9eca43054921a96ba"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "d7371836ba3fb3cbccc5c4db981dd77a93bc48e7fcec857cffd7a3a8ac3b9374"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-linux-musl-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "powerpc64le"
-git-tree-sha1 = "5227feeb438def5592d3a1024ae599d1e5345c2f"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "3c1f5b52ab45881e2ef83d60c0bafbbc559b57eab8069086afb8c01fb3846f81"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.powerpc64le-linux-gnu-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "fcd1434daa29f45c85ff24299f51318dfb017675"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "bbaa8d0a783acaf85375b91575584c41d5bb10771722e027658a44175f126bb2"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-linux-gnu-libgfortran5.tar.gz"
-[[OpenBLAS]]
-arch = "i686"
-git-tree-sha1 = "2f34e85720d72b1db063c8c0d34146df3e6b8d21"
-libgfortran_version = "4.0.0"
-os = "windows"
-
-    [[OpenBLAS.download]]
-    sha256 = "cc33ac2a14c5f9c1d6628f3308127bb39521226917ecb9639e06bc164d5f7a79"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-w64-mingw32-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "34ec705ec0d0f37c30f2ebe7f110ff00bf04d155"
-libgfortran_version = "3.0.0"
-os = "freebsd"
-
-    [[OpenBLAS.download]]
-    sha256 = "b57f05062ea9a0509ec7085d23c9540e99dd58dbdf64a55d5b9f5b2ce5b04090"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-unknown-freebsd11.1-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "i686"
-git-tree-sha1 = "3407fe1a397d760acce7083d58dd8a83644aa6f2"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[OpenBLAS.download]]
-    sha256 = "3915bce40e23e635d644d98abae026ec9b5ea7f4487e6fd8ea892540cf6b8b64"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-linux-gnu-libgfortran4.tar.gz"
-[[OpenBLAS]]
-arch = "i686"
-git-tree-sha1 = "5aac144090140bfca17061079881311f51e678e2"
-libgfortran_version = "3.0.0"
-os = "windows"
-
-    [[OpenBLAS.download]]
-    sha256 = "b7231386683f2bf8db764c4a95110446a1973c4c8c382538abeeb0009ba20a2d"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-w64-mingw32-libgfortran3.tar.gz"
-[[OpenBLAS]]
-arch = "x86_64"
-git-tree-sha1 = "041a3b2cc2f46844b4b8acaad270221798518f98"
+git-tree-sha1 = "5b3b6c5b24922ac366441bc641eb38ec6d07ec77"
 libgfortran_version = "4.0.0"
 os = "macos"
 
     [[OpenBLAS.download]]
-    sha256 = "309fd57cd0e6668344d703d3afb0b4b6ea81ff8bf09adffc84f395456c2bb3dc"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.x86_64-apple-darwin14-libgfortran4.tar.gz"
+    sha256 = "b5bf24af83979cadf89344d84bba630ea5ee07301ce413d1e61e1a7bccb900ba"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-apple-darwin14-libgfortran4.tar.gz"
 [[OpenBLAS]]
 arch = "i686"
-git-tree-sha1 = "23e601aa3d7c97e7420b3a91a448855c18ff3396"
+git-tree-sha1 = "37abf9adee34501ab6c7e4372639a02424a5a36b"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[OpenBLAS.download]]
-    sha256 = "01ea5c5895675605dc7b2291e8334e7dd226a841e192f4d993fd1fbf0c33127c"
-    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.7+3/OpenBLAS.v0.3.7.i686-linux-musl-libgfortran4.tar.gz"
+    sha256 = "d1a2725804ad42f424010c8baf02d68eef480f55393c89929e53efed07d7d740"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-linux-musl-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "armv7l"
+git-tree-sha1 = "f95dedea3dbdf4ba2777dbf06f34efcbcef5280c"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "5738d6b418f21ce7ee1eb45580c85fb0e56c7d395733b0e6caad3990427a0332"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.arm-linux-gnueabihf-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "a469e89b688e3eeff6e23534aea72a10b8939359"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[OpenBLAS.download]]
+    sha256 = "6739538302b680a5de99904816b22e8a9bbd0203395703c4a04dea565cd45dc9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-apple-darwin14-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "i686"
+git-tree-sha1 = "982db876916f699c47e6fa344e1ba2927bbcc42a"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "36303362926e8ffbdbdb18c7c5c52a0bd17f3a3062ba41fe72e4305e3708c3c7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-linux-gnu-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "armv7l"
+git-tree-sha1 = "488e8fa6c7ca31c917ecc3c3edf6460f8bb984b2"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "0b9b2027c73f27d2bb17a92be4d1a61d9a76f637bf981a5cf8f66badcac66128"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.arm-linux-musleabihf-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "aarch64"
+git-tree-sha1 = "cf74356e489db57ae503d7e7b8da13b33c568029"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "15479ce481b812ba054513d6714fa9e8c5562547f14c7a5d2c334ab4d389ee7f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.aarch64-linux-gnu-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "dae639694531a6af5e5c9007b8a5a4352776076d"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "3f1a15a55f731f971c28dcd7693a0b466d69d66c48e825ae21423080fc78d9bb"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-linux-musl-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "armv7l"
+git-tree-sha1 = "a8a4c556e0dcb630da2d76d2e2584b9dc096dd2d"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "0afb9df1d91e0a1306c27c14de9fdf86863e86d6a7e1e9ea377e6a4db4f67619"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.arm-linux-gnueabihf-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "53b78d2c686ab9f74392ce17ce0932155c73c319"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "55386fb2730176d0620128a1e829a4b41c73904e430e28f685f63f2cd243ff1f"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-linux-musl-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "0b629a4e2671062e54ad674fc3ccb3ab94eedca5"
+libgfortran_version = "3.0.0"
+os = "freebsd"
+
+    [[OpenBLAS.download]]
+    sha256 = "fe3f1743b46450c59d8543f8d799f7f879c2496347ad3979cd8d3afeecec92d9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-unknown-freebsd11.1-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "a0d2ff523d65a610e44b6bca95ff2ee92a2cc2f8"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "bf7801699a7e0768243567aa4d2b414446da306cb69b4d2d0bdccc3c04ee1697"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-linux-musl-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "aaa924fc8fe882e2c79ba49ee907e5781836388b"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[OpenBLAS.download]]
+    sha256 = "cb90eea14a255cf543a424b8f698252349caef75a662b9f0e2ca061c7f862aee"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-apple-darwin14-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "4b98ec456aced7024d0b1afd994649d2dcff2091"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "6f9ab8ab07c13dce5f710c5c9ae2ada00ffb3e4db14378495aaa1b3b7b4a7771"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "099839cff2ec91de1c3fda888d50332aee51b4a0"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[OpenBLAS.download]]
+    sha256 = "c533109ccccf5e2f7292d70dbf4afedcba73161f5d7a1c6cf48d656dde013806"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-w64-mingw32-libgfortran3.tar.gz"
+[[OpenBLAS]]
+arch = "x86_64"
+git-tree-sha1 = "2195b21c7881cf970ed58e0e7c9a3b28646b7789"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[OpenBLAS.download]]
+    sha256 = "ba9fa8f057988dcd27b18347eb6f81ed0d430446790aa3a45d0e1185d4a12cc1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.x86_64-unknown-freebsd11.1-libgfortran4.tar.gz"
+[[OpenBLAS]]
+arch = "i686"
+git-tree-sha1 = "9bc170973d4e7b6f4f827c33315d18127ebedb55"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[OpenBLAS.download]]
+    sha256 = "4da820589a36c5bbe654c7732216221cafe95fffe435193979ea2ad267c8f8be"
+    url = "https://github.com/JuliaBinaryWrappers/OpenBLAS_jll.jl/releases/download/OpenBLAS-v0.3.5+0/OpenBLAS.v0.3.5.i686-linux-gnu-libgfortran5.tar.gz"
