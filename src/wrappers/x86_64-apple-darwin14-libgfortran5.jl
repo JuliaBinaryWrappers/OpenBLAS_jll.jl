@@ -17,7 +17,7 @@ libopenblas_path = ""
 libopenblas_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libopenblas = "@rpath/libopenblas64_.0.3.7.dylib"
+const libopenblas = "@rpath/libopenblas64_.dylib"
 
 
 """
