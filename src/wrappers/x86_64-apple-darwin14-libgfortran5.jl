@@ -9,7 +9,7 @@ LIBPATH_env = "DYLD_FALLBACK_LIBRARY_PATH"
 LIBPATH_default = "~/lib:/usr/local/lib:/lib:/usr/lib"
 
 # Relative path to `libopenblas`
-const libopenblas_splitpath = ["lib", "libopenblas64_.0.3.9.dylib"]
+const libopenblas_splitpath = ["lib", "libopenblas64_.0.3.10.dylib"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libopenblas_path = ""
