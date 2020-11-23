@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
         libopenblas,
-        "lib/libopenblas.0.3.12.dylib",
+        "lib/libopenblas.0.3.10.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
